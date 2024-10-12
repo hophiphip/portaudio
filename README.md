@@ -1,6 +1,6 @@
 # portaudio-static
 
-This package is a fork of: [portaudio](https://github.com/gordonklaus/portaudio) with the only difference that in comes with all PortAudio development headers and libraries.
+This package is a fork of [portaudio](https://github.com/gordonklaus/portaudio) with the only difference that in comes with all PortAudio development headers and libraries and does not require any setup.
 
 ## Headers and libraries version
 
