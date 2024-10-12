@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/gordonklaus/portaudio"
 	"math"
 	"time"
+
+	"github.com/hophiphip/portaudio"
 )
 
 const sampleRate = 44100

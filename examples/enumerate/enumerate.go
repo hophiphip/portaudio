@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/gordonklaus/portaudio"
 	"os"
 	"text/template"
+
+	"github.com/hophiphip/portaudio"
 )
 
 var tmpl = template.Must(template.New("").Parse(

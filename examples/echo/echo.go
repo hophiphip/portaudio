@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/gordonklaus/portaudio"
 	"time"
+
+	"github.com/hophiphip/portaudio"
 )
 
 func main() {

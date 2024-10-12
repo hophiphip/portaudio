@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/gordonklaus/portaudio"
 	"math/rand"
 	"time"
+
+	"github.com/hophiphip/portaudio"
 )
 
 func main() {
