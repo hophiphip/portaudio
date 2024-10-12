@@ -1,7 +1,15 @@
-# portaudio
+# portaudio-static
 
-This package provides an interface to the [PortAudio](http://www.portaudio.com/) audio I/O library.  See the [package documentation](http://godoc.org/github.com/gordonklaus/portaudio) for details.
+This package is a fork of: [portaudio](https://github.com/gordonklaus/portaudio) with the only difference that in comes with all PortAudio development headers and libraries.
 
-To build this package you must first have the PortAudio development headers and libraries installed.  Some systems provide a package for this; e.g., on Ubuntu you would want to run `apt-get install portaudio19-dev`.  On other systems you might have to install from source.
+## Headers and libraries version
 
-Thanks to sqweek for motivating and contributing to host API and device enumeration.
+This package uses development headers and libraries from stable release: April 6, 2021 - tag v19.7.0  
+
+## Development
+
+In order to re-generate `.go` sources run:
+
+```bash
+./scrips/generate.sh
+```

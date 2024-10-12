@@ -1,3 +1,3 @@
-module github.com/gordonklaus/portaudio
+module github.com/hophiphip/portaudio
 
 go 1.18
